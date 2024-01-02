@@ -1,4 +1,6 @@
 # UT05. Introducción a la POO
+# UT06. Desarrollo de clases y creación de objetos
+# UT07. Utilización avanzada de clases
 
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/f8cc8c3c-9983-47f8-9a54-df065030eedf)
 
@@ -8,7 +10,10 @@
 ## Contenidos
 
 Teoría en el aula virtual: 
-https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/course/view.php?id=526#section-11
+
+https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/course/view.php?id=526#section-12
+https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/course/view.php?id=526#section-13
+https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/course/view.php?id=526#section-14
 
 
 [VOLVER PÁGINA PRINCIPAL](https://github.com/profeMelola/Programacion-00-2023-24)
