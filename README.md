@@ -1,6 +1,9 @@
 # UT05. Introducción a la POO
 
-![image](https://github.com/profeMelola/Programacion-04-2023-24/assets/91023374/eb753e10-7450-4889-8504-1eabfcd0e9a4)
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/f8cc8c3c-9983-47f8-9a54-df065030eedf)
+
+<sub>Fuente: https://mauriciogc.medium.com/javascript-programaci%C3%B3n-orientado-a-objetos-fundamentos-401746946459</sub>
+
 
 ## Contenidos
 
