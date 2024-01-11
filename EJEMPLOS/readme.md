@@ -24,6 +24,11 @@ Cada método que simplemente muestre una traza informativa.
 - El nombre de la clase y el nombre del fichero que la contiene debe ser el mismo.
 - La declaración de clase es sólo una descripción de tipos, no crea ningún objeto.
 
+Vamos a usar:
+
+- Constructor por defecto.
+- Reerencias a atributos de un objeto.
+- Referencias a métodos de un objeto.
 
 ## Ejemplo 2: definición de una clase Vehiculo
 
@@ -35,16 +40,7 @@ Cada método que simplemente muestre una traza informativa.
 - capacidad combustible
 - consumo (consumo km/litro)
 
-## Ejemplo 3: creación de objetos Persona
-
-Vamos a usar:
-
-- Constructor por defecto.
-- Reerencias a atributos de un objeto.
-- Referencias a métodos de un objeto.
-
-
-## Ejemplo 4: creación de objetos Vehiculo
+###  Creación de objetos Vehiculo
 
 1. Vamos a usar:
 
