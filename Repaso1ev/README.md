@@ -1,10 +1,10 @@
-## Prueba diagnóstica
+# Prueba diagnóstica
 
-# Objetivos
+## Objetivos
 - Comprobar el nivel de conocimientos adquiridos en la primera evaluación.
 - Realizar unas pruebas diferentes a las realizadas en clase.
 
-# Enunciado
+## Enunciado
 
 https://github.com/aulaenlanube/curso-programacion-java/tree/master/aulaenlanube/examenes/ev1
 
