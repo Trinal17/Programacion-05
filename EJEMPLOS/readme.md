@@ -75,3 +75,5 @@ float calcularAutonomia() {
 
 ```
 4. Añadiremos en el main la llamada al método para obtener la autonomía de cada vehículo y mostrar los resultados por consola.
+
+**¿Y si ahora quiero modificar el modelo del monovolumen para que sea Space Deluxe? ¿Cómo podemos hacerlo?**
