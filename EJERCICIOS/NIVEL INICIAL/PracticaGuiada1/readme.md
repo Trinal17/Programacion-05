@@ -10,13 +10,13 @@ Estos atributos serán públicos.
 
 En el main de la clase principal instancia dos objetos de la clase Persona. 
 
-Luego, pide por teclado los datos de ambas personas (guárdalos en los objetos). 
+Luego, pide por teclado los datos de ambas personas. Guárdalos en los objetos.
 
 Por último, imprime dos mensajes por pantalla (uno por objeto) con un mensaje del estilo “Azucena Luján García con DNI … es / no es mayor de edad”.
 
 ## Personas v2: con constructor específico
 
-Añade a Persona el siguiente onstructor y corrige el main para utilizarlo:
+Añade a Persona el siguiente constructor y corrige el main para utilizarlo:
 
 <code>
   
@@ -48,7 +48,7 @@ public Persona(String dni, String nombre, String apellidos, int edad) {
 Aplica el encapsulamiento básico a la clase Persona: 
 
 - Declara todos sus atributos como private y crea todos los getters y setters necesarios (un get y un set por atributo).
-- Corrige el main para utilizar los getters y setters. 
+- Corrige el main para utilizar los getters y setters. Cambia la v1 para usar setters.
 - Prueba a instanciar varios objetos, mostrar sus valores por pantalla, modificarlos, etc.
 
 
