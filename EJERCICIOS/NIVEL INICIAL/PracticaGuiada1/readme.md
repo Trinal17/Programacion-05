@@ -83,6 +83,6 @@ Tendrás que inicializarlo a 18 en la declaración.
 
 Utilízalo en el método que comprueba si una persona es mayor de edad.
 
-
+PENDIENTE!!!! ATRIBUTO SOLO ESTÁTICO CON CONTADOR....
 
 
