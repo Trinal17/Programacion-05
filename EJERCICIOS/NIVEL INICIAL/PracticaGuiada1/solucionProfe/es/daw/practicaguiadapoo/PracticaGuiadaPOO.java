@@ -23,11 +23,20 @@ public class PracticaGuiadaPOO {
         }*/
         // ------------------------------
 
-         Persona persona1 = new Persona("51519669Z", "Ivan", "Izquierdo Castillo", 18);
-         Persona persona2 = new Persona("45542552Y", "Felix", "Izquierdo Castillo", 22);
-         Persona persona3 = new Persona("63368998T", "Paula", "Castillo Rodrigo", 12);
-         Persona persona4 = new Persona("78875115H", "Juan", "Castillo Vela", 79);
+         //Persona persona1 = new Persona("51519669Z", "Ivan", "Izquierdo Castillo", 18);
+         //Persona persona2 = new Persona("45542552Y", "Felix", "Izquierdo Castillo", 22);
+         //Persona persona3 = new Persona("63368998T", "Paula", "Castillo Rodrigo", 12);
+         //Persona persona4 = new Persona("78875115H", "Juan", "Castillo Vela", 79);
+
+         Persona persona1 = new Persona("51519669Z", "Ivan", "Izquierdo Castillo", 18,"11111111A");
+         Persona persona2 = new Persona("45542552Y", "Felix", "Izquierdo Castillo", 22,"11111111A");
+         Persona persona3 = new Persona("63368998T", "Paula", "Castillo Rodrigo", 12,"11111111A");
+         Persona persona4 = new Persona("78875115H", "Juan", "Castillo Vela", 79,"11111111A");
         
+        persona1.setNombre("MARI PURI");
+
+        System.out.println("LA MAYORÍA DE EDAD EN ESPAÑA ES:"+Persona.MAYOR_EDAD);
+
         persona1.imprime();
         persona2.imprime();
         

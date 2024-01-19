@@ -7,15 +7,47 @@ public class Persona {
     private String nombre;
     private String apellidos;
     private int edad;
+    private final String NIF; //una vez que tenga valor no pueda modificarse, sea constante
 
-    private int contador;
+    private final static int MAYOR_EDAD= 18;
 
+    private int contador; //pendiente!!! atributo compartido entre todos los objetos. Si 
+                            // un objeto lo modificado, el resto de objetos se verán afectados...
+
+
+                            /*/
     public Persona(String dni, String nombre, String apellidos, int edad) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+    }*/
+
+    
+
+    public Persona(String dni, String nombre, String apellidos, int edad, String NIF) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.NIF = NIF;
     }
+
+    
+
+    
+
+
+
+    public String getNIF() {
+        return NIF;
+    }
+
+
+
+
+
+
 
     public String getDni() {
         return dni;
@@ -49,7 +81,7 @@ public class Persona {
         this.edad = edad;
     }
 
-    
+
 
     @Override
     public String toString() {
@@ -78,6 +110,16 @@ public class Persona {
         int diferencia=0;
         diferencia = this.edad - p1.edad;
         return diferencia;
+    }
+
+
+
+
+
+
+
+    public void setContador(int contador) {
+        this.contador = contador;
     }
     
             
