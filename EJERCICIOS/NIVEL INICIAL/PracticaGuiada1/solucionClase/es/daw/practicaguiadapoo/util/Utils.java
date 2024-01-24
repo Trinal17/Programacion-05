@@ -7,7 +7,7 @@ import static es.daw.practicaguiadapoo.PracticaGuiadaPOO.lectorCadena;
 public class Utils {
     
     public static Persona[] cargarPersonas(){
-
+        
         System.out.println("********* VAS A CARGAR PERSONAS **********");
         System.out.println("Cuántas personas vas a cargar?");
         int cantidadPersonas = lectorEnteros.nextInt();
@@ -34,10 +34,23 @@ public class Utils {
 
             // Añado la persona al array
             personas[i] = new Persona(DNI, nombre, apellidos, edad);
+            //personas[i] = new Persona(DNI, nombre, apellidos, edad,"NIF");
 
             
         }     
 
         return personas;
+    }
+
+    public static void cambiarEdadByName(Persona[] personas, String name, int edadNueva){
+
+        // Primero recorro el array para coger persona a persona
+        for (Persona persona : personas) {
+            if (persona.getNombre().equalsIgnoreCase(name)){
+                persona.setEdad(edadNueva);
+                break;
+            }
+        }
+
     }
 }
