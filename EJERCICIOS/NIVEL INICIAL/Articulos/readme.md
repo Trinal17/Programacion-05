@@ -22,7 +22,7 @@ Dicho constructor deberá mostrar un mensaje de error si alguno de los valores n
 “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA).
 ```
 
-## Paso 2: aplica el encapsulamiento básico a la clase Articul
+## Paso 2: aplica el encapsulamiento básico a la clase Articulo
 
 Declara todos sus atributos como private y crea todos los getters y setters necesarios (un get y un set por atributo).
 
