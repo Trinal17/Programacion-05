@@ -27,7 +27,7 @@ public class Utilidades {
             
             if (coche.getMarca().equals(marca)){
                 System.out.printf("Se le ha aplicado descuento al coche con matricula %s\n", coche.getMatricula());
-                coche.setPrecio((coche.getPrecio() * descuento) / 100);
+                coche.setPrecio(coche.getPrecio()-((coche.getPrecio()*descuento)/100));
             }
         }
     }

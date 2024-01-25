@@ -75,7 +75,7 @@ public class Utils {
         
         for (Coche coche : concesionario) {
             if(marca.equals(coche.getMarca())){
-                coche.setPrecio((coche.getPrecio()*descuento)/100);
+                coche.setPrecio(coche.getPrecio()-((coche.getPrecio()*descuento)/100));
                 System.out.println("Precio actualizado: "+coche.getPrecio());
                 break;
             }
