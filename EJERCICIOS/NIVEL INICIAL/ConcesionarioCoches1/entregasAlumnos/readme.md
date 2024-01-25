@@ -1,2 +1,2 @@
 # Entregas alumnos
-Sube una carpeta con tu nombre y los fuentes java dentro
+Sube una carpeta con tu nombre y los fuentes.
