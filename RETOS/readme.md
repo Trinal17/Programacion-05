@@ -19,3 +19,14 @@ public static void main(String[] ar) {
 ```
 
 ¿Ha funcionado correctamente?
+
+## RETO 2:
+
+Revisa la teoría del aula virtual sobre Agregación y Composición
+
+https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/mod/page/view.php?id=119515&forceview=1
+
+Relativo al ejercicio sobre Concesionarios de coches (https://github.com/profeMelola/Programacion-05-2023-24/tree/main/EJERCICIOS/NIVEL%20INICIAL/ConcesionarioCoches1):
+¿Qué harías para mejorar dicho ejercicio?
+¿Es una relación de agregación o composición?
+
