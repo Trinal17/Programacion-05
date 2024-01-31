@@ -1,4 +1,4 @@
-# RETOS
+# RETOS POO
 ## RETO 1:
 Crea una clase llamada 'Punto' que represente un punto en el plano. Definir los atributos x e y.
 
