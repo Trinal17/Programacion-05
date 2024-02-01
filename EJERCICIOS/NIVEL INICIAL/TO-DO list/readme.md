@@ -51,16 +51,20 @@ En el simulacro, dicha lista estará compuesta por 5 tareas con los siguientes d
 
 **PASO 2:** Codifica la descripción de la última tarea y haz las pruebas pertinentes según lo especificado. Por ejemplo:
 
-![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/3da13cfc-a3e9-4fd2-8036-6ac7f31d0d01)
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/543b5f82-9d9c-4016-a342-9d3f4ec8e7ee)
+
 
 **PASO 3:** muestra la información de todas las tareas. Crea un método estático en la propia clase principal.  Debes obtener las siguientes trazas por consola:
 
-![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/261f8ee2-61d3-4cbf-8e72-17bcc1202b54)
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/24811a77-baf8-412b-ab21-eb3df81c85d5)
+
 
 **PASO 4:** finaliza la segunda y tercera tarea y muestra solo las tareas que han finalizado indicando también cuántas han finalizado. 
 
 Crea un método estático en la propia clase principal. Debes obtener las siguientes trazas por consola:
 
-![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/45fed5c5-b342-4053-806c-b2d5f6d4b6db)
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/a4214e88-532d-4942-9729-6daa2ac2d3ce)
+
+
 
 
