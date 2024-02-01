@@ -34,7 +34,8 @@ Para ello implementa los dos métodos de comportamiento proporcionados, uno para
 
 Finalmente sobreescribe el método toString() para obtener la información de cada Tarea con el siguiente formato:
 
-![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/0cd164c1-24a0-4072-b298-f33bd97f9237)
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/d94a61a2-079b-449a-ba82-abc8740c1013)
+
 
 Como puedes observar se indica si la tarea está finalizada o no. Usa la clase StringBuilder. 
 
