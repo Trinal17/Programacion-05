@@ -55,6 +55,7 @@ En el simulacro, dicha lista estará compuesta por 5 tareas con los siguientes d
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/3da13cfc-a3e9-4fd2-8036-6ac7f31d0d01)
 
 **PASO 3:** muestra la información de todas las tareas. Crea un método estático en la propia clase principal.  Debes obtener las siguientes trazas por consola:
+
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/261f8ee2-61d3-4cbf-8e72-17bcc1202b54)
 
 **PASO 4:** finaliza la segunda y tercera tarea y muestra solo las tareas que han finalizado indicando también cuántas han finalizado. 
