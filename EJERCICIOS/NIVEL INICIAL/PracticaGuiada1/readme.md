@@ -72,16 +72,9 @@ Prueba a utilizar estos métodos desde el main para comprobar su funcionamiento.
 
 ### Ten en cuenta en tu programa:
 
-El **DNI de una persona no puede variar**. Añade el modificador final al atributo dni y asegúrate de podrá utilizar porque Java no te dejará modificar el atributo dni.
-
-La mayoría de edad a las 18 años es un valor común a todas las personas y no puede variar.  
-
-
-**Crea un nuevo atributo llamado mayoriaEdad que sea static y final.** 
-
-Tendrás que inicializarlo a 18 en la declaración. 
-
-Utilízalo en el método que comprueba si una persona es mayor de edad.
+1. El **DNI de una persona no puede variar**. Añade el modificador final al atributo dni y asegúrate de podrá utilizar porque Java no te dejará modificar el atributo dni.
+2. **Crea un nuevo atributo llamado mayoriaEdad que sea static y final.** La mayoría de edad a las 18 años es un valor común a todas las personas y no puede variar. Tendrás que inicializarlo a 18 en la declaración. Utilízalo en el método que comprueba si una persona es mayor de edad.
+3. Crea un atributo estático (atributo de clase) que sirva de contador de objetos Persona creados
 
 
 

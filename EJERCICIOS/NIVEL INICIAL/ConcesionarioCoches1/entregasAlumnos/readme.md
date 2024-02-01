@@ -1,2 +1,2 @@
-# Soluciones de alumnos
+# Entregas alumnos
 Sube una carpeta con tu nombre y los fuentes.
