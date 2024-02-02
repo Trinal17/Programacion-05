@@ -54,7 +54,7 @@ Al pagar hay que tener en cuenta que el importe no puede ser superior al saldo d
 
 **************************************************************
 
-El sistema debe preguntar el usuario por el número de tarjetas que va a dar de alta en el sistema quedando todas ellas guardadas en una misma estructura (un array).
+Cargamos las tarjetas en un ArrayList.
 
 Por cada tarjeta es necesario pedir la información pertinente. Crea tarjetas de las dos formas posibles (con y sin límite de gasto).
 
