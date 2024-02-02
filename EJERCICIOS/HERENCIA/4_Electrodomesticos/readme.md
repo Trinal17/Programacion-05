@@ -108,4 +108,4 @@ La suma del precio de las televisiones es de 1580.0
 
 # APOYO DE TEORÍA: TIPOS ENUMERADOS
 
-https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/mod/page/view.php?id=57694
+https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/mod/folder/view.php?id=116808 (PDF: uso de enumeraciones)
