@@ -1,9 +1,13 @@
-# Primer ejercicio de herencia
+# Primer ejemplo de herencia
 
 Vehículo -> Coche
 Vehículo -> Moto
 
+Revisaremos previamente esta teoría:
+
 https://java.codeandcoke.com/apuntes:objetos
+
+Busca el apartado de herencia:
 
 ![image](https://user-images.githubusercontent.com/91023374/212052492-7369fa51-d7a9-4518-a8c4-8ad5a69efbe4.png)
 

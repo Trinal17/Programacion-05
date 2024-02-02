@@ -6,6 +6,8 @@ import es.daw.concesionario.model.Concesionario;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 /**
  *
@@ -56,13 +58,41 @@ public class Utilidades {
     public static void ponerPrecioPorMatricula(Coche[] coches, String matricula, int precio){
         for(Coche c: coches){
             if (c != null){
-                if (c.getMatricula().equalsIgnoreCase(matricula))
+                if (c.getMatricula().equalsIgnoreCase(matricula)){
                     c.setPrecio(precio);
+                    break;
+                }
             }
         }
         
     }
-    
+    public static void ponerPrecioPorMatricula(Concesionario concesionario, String matricula, int precio){  
+        ArrayList<Coche> coches = concesionario.getCoches();
+
+        // sin reutilizar
+        for(Coche coche: coches){
+             if (coche.getMatricula().equalsIgnoreCase(matricula)){
+                 coche.setPrecio(precio);
+                 break;
+             }
+        }
+        
+        // reutilizando
+        //Coche[] cochesArray = (ArrayList<Coche>) Arrays.asList(coches);
+
+        // -----------------------------------------
+        // reutilizando
+        // Convertir el Array en ArrayList
+        // String[] cadenas = {"uno","dos"};
+        // List<String> prueba = Arrays.asList(cadenas);
+
+        // // Convertir el ArrayList en Array
+        // String[] cadenas2 = prueba.toArray(new String[2]);
+        // -----------------------------------------
+        
+            
+        
+    }  
     
     /**
      * 
@@ -111,6 +141,18 @@ public class Utilidades {
 
         //Muestro el informe
         System.out.println(sb.toString());
+
+    }
+
+    // SOBRECARGA DE MÉTODOS
+    public static void mostrarInfoCochesByPrecio(Concesionario conce, int precio){
+        ArrayList<Coche> coches = conce.getCoches();
+        StringBuilder sb = new StringBuilder("INFORME DE COCHES CUYO PRECIO ES MENOR QUE "+cantidad);
+        for (Coche coche: coches){
+            if (coche.getPrecio() < precio){
+                sb.append(coche);            
+            }
+    }
 
     }
 

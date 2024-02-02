@@ -24,13 +24,12 @@ public class ConcesionarioApp {
         Concesionario miConcesionario = new Concesionario("Coches baratos de la Mari");
         miConcesionario.addCoche(new Coche("1111BVJ",3,"BMW",50,50000));
         miConcesionario.addCoche(new Coche("2222BVK",5,"BMW"));
+        miConcesionario.addCoche(new Coche("4444AAA", 5, "Audi"));
+        miConcesionario.addCoche(new Coche("3333BVL",3,"BMW",3000,10000));
+        miConcesionario.addCoche(new Coche("5555KKK", 5, "Audi", 3000, 25500));
 
         // 1. OBTENER NÚMERO DE PLAZAS LIBRES
         System.out.printf("EL CONCESIONARIO %s TIENE %d COCHES",miConcesionario.getName(),miConcesionario.getCantidadCoches());
-
-        // concesionario[2] = new Coche("4444AAA", 5, "Audi");
-        // concesionario[3] = new Coche("3333BVL",3,"BMW",3000,10000);
-        // concesionario[4] = new Coche("5555KKK", 5, "Audi", 3000, 25500);
         
         
         // 2. APLICAR DESCUENTO A COCHES CUYA MARCA SEA XXXX
@@ -44,13 +43,12 @@ public class ConcesionarioApp {
         miConcesionario.removeCoche(new Coche("1111BVJ"));
 
         // -------------------------
-        //  PUNTO 3 Y 4 PARA EL JUEVES 1 DE FEBRERO!!!!!!!!!!1
         // 3. PONER PRECIO A UN COCHE CON UNA MATRÍCULA EN CONCRETO
-        // Utilidades.ponerPrecioPorMatricula(concesionario, "2222BVK", 55000);
-        // Utilidades.mostrarInfoConcesionario(concesionario);
+        Utilidades.ponerPrecioPorMatricula(miConcesionario, "2222BVK", 55000);
+        Utilidades.mostrarInfoConcesionario(miConcesionario);
 
         // 4. Mostrar informe solo de los coches cuyo precio sea inferior a una cantidad dada
-        // Utilidades.mostrarInfoCochesByPrecio(concesionario, 30000);
+        Utilidades.mostrarInfoCochesByPrecio(miConcesionario, 30000);
 
 
 
