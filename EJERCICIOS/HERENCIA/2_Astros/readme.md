@@ -67,6 +67,24 @@ El programa controla que se intruduzca un número de planeta correcto (debe ser 
         Satelite deimos = new Satelite("Deimos", 2.244E15, 12400.0, 0.0, 1.262, -40.15, 0.0039, 23460, marte);
 ```
 
+### Pista: para crear correctamente el método toString()
+Investiga sobre:
+- getClass()
+- getClass().getSimpleName()
+
+```
+    public String toString() {
+        StringBuilder sb = new StringBuilder("\n*** "+getClass().getSimpleName()+" "+super.getNombre()+" ***");
+        sb.append(super.toString());
+        sb.append("\ndistPlaneta=").append(distPlaneta);
+        sb.append("\norbPlaneta=").append(orbPlaneta);
+        sb.append("\nplaneta=").append(planeta.getNombre());
+        return sb.toString();
+    }
+```
+
+
+
 # VERSIÓN 2: Con clase abstracta
 
 Implementar el método abstracto en Astro:
