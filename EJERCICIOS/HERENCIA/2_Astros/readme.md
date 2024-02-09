@@ -34,9 +34,10 @@ En el caso de los **satélites** es necesario almacenar:
 • Método para mostrar la información del objeto. 
 
 
-Define un método, que dado un objeto del sistema solar (planeta o satélite), imprima toda la información que se dispone sobre el mismo (además de su lista de satélites si los tuviera).
+**Sobreescribir el método toString()**
+Vamos a sobreescribirlo para que dado un objeto del sistema solar (planeta o satélite), devuelva un String con toda la información que se dispone sobre el mismo (además de su lista de satélites si los tuviera).
 
-• No hace falta sobreescribir el método equals y hashCode...
+Para ello haremos uso de la clase StringBuilder.
 
 **Aunque salga en la captura, no hay que implementar el método muestra y mucho menos abstracto!!!!! utilizad el método toString() adecuadamente en cada caso** 
 
