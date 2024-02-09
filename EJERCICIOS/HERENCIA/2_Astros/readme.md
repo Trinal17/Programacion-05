@@ -99,7 +99,12 @@ Implementar el método abstracto en Astro:
 Para obtener el número de soles de distancia hay que tener en cuenta que no se obtiene igual en los planetas que en los satélites. Vamos a considerar (que no se entere ningún astrónomo que nos mata!!!!) que:
 - **En los planetas:** el número de soles será la distancia al sol dividida por el diámetro del sol (distSol / DIAMETRO_SOL).
 - **En los satélites:** el número de soles será la distancia del satélite al planeta + la distancia del planeta el sol, dividido por el diámetro del sol.
-  
+
+```
+    // Constante en la clase padre Astro
+    protected final double DIAMETRO_SOL = 1500000;
+
+```
 
 **Al usar el método abstracto obligará a:**
 
