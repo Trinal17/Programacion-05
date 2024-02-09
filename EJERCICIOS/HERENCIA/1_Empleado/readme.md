@@ -24,3 +24,38 @@ El resto de clases solo deben sobrescribir el método toString() en cada una de 
 Den el siguiente resultado:
 
 ![image](https://user-images.githubusercontent.com/91023374/148693415-fd3ffd53-dbf9-4cff-bac2-c6cae031a026.png)
+
+# Añadiendo polimorfismo
+
+El siguiente código está relacionado con la teoría del aula virtual 
+
+```
+        Empleado[] empleados = new Empleado[10];
+        empleados[0] = E1;
+        empleados[1] = D1;
+        empleados[2] = OP1;
+        empleados[3] = OF1;
+        empleados[4] = T1;
+        empleados[5] = T2;
+
+        // Primera forma 
+        System.out.println(Arrays.toString(empleados));
+
+        // Segunda forma
+        System.out.println("********** LISTADO DE EMPLEADOS **********");
+        for (Empleado empleado : empleados) {
+            System.out.println(empleado);
+            
+        }
+
+        // Ahora con arraylist
+        ArrayList<Empleado> empleados2 = new ArrayList<>();
+        empleados2.add(E1);
+        // ....
+
+        System.out.println("********** LISTADO DE EMPLEADOS ARRAYLIST**********");
+        ArrayList<Empleado> empleados3 = new ArrayList<>(Arrays.asList(empleados));
+        for (Empleado empleado : empleados3) {
+            System.out.println(empleado);
+        }
+'''
