@@ -2,7 +2,7 @@
 
 Partimos del ejercicio sobre la gestión de notas del alumno https://github.com/profeMelola/Programacion-04-2023-24/tree/main/ARRAYS/EJERCICIOS/2.GestionNotasAlumno
 
-## Posponemos este ejercicio para cuando veamos en la tercera evaluación la colección Map. 
+**Posponemos este ejercicio para cuando veamos en la tercera evaluación la colección Map.**
 
 # Ejercicio 2: alquiler de vehículos
 
