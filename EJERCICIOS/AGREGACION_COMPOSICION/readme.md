@@ -1,10 +1,12 @@
 # Ejercicios sobre relaciones entre clases: agregación y composición
 
-Apoyo de teoría:
+Apoyo de teoría en el aula virtual: https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/mod/page/view.php?id=119515
 
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/0bd094ef-1a93-4912-920e-f06a870f6e6f)
 
-https://aulavirtual3.educa.madrid.org/ies.alonsodeavellan.alcala/mod/page/view.php?id=119515
+<small>Fuente: https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/</small>
+
+
 
 
 # Ejercicio 1: Juego de azar
