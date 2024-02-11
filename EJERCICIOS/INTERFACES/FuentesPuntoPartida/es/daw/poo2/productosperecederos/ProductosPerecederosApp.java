@@ -2,7 +2,7 @@ package es.daw.poo2.productosperecederos;
 
 import es.daw.poo2.productosperecederos.model.Perecedero;
 import es.daw.poo2.productosperecederos.model.Producto;
-import es.daw.productosperecederos.dao.ProductoDAO;
+import es.daw.poo2.productosperecederos.dao.ProductoDAO;
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 
