@@ -127,17 +127,17 @@ Crea una clase ejecutable y crea un array de productos y muestra el precio total
 
 ## Pregunta: ¿Utilizarías una clase abstracta? Razona la respuesta
 
-# NUEVOS REQUISITOS
+## NUEVOS REQUISITOS
 
-## REQUISITO 1
+### REQUISITO 1
 Debemos ampliar el programa anterior de tal forma que TODOS los productos deben poder devolverse al proveedor.
 
 - Si son **perecederos** solo pueden devolverse cuando le queda más de 5 días para caducar.
 - Si **no son perecederos** solo pueden devolverse en el caso de que el tipo sea "Permite devolución".
 
-### Pregunta: ¿Utilizarías una clase abstracta? ¿Qué método sería abstracto? Razona la respuesta
+#### Pregunta: ¿Utilizarías una clase abstracta? ¿Qué método sería abstracto? Razona la respuesta
 
-## REQUISITO 2
+### REQUISITO 2
 Todos los productos, al igual que todos los clientes y proveedores (producto, cliente y proveedor son clases del programa de gestión de la tienda) deben poder exportarse a formato XML.
 
 Para ello existe una clase con un método estático llamado **ConvertObjectToXML** que necesita recibir el objeto a convertir a XML y que invocará al método **getPlantillaXML**.
@@ -146,19 +146,19 @@ Este método devuelve un String con el formato del xml de cada objeto a modo de 
 
 El xml en el que se convierten los productos, clientes y proveedores son diferentes.
 
-### Ejemplos de String devuelto por cada clase:
+#### Ejemplos de String devuelto por cada clase:
 
-#### XML de productos
+##### XML de productos
 
 &lt;producto&gt;bla bla bla&lt;producto&gt;
   
-#### XML de clientes
+##### XML de clientes
 &lt;cliente&gt;bla bla bla&lt;cliente&gt;
   
-#### XML de proveedores
+##### XML de proveedores
 &lt;proveedor&gt;bla bla bla&lt;proveedor&gt;
 
-### Pregunta: ¿Utilizarías una interface? Razona tu respuesta
+#### Pregunta: ¿Utilizarías una interface? Razona tu respuesta
 
 No se pide programar las clases Cliente, Proveedor, ni el método ConvertObjectToXML..... pero sí la interface y su implementación en la clase Producto.
 
