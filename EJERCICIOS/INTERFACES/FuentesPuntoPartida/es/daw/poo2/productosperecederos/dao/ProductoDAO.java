@@ -1,4 +1,4 @@
-package es.daw.productosperecederos.dao;
+package es.daw.poo2.productosperecederos.dao;
 
 import es.daw.poo2.productosperecederos.model.NoPerecedero;
 import es.daw.poo2.productosperecederos.model.Perecedero;
