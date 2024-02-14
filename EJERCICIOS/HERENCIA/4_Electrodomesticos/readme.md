@@ -1,5 +1,7 @@
 # Electrodomésticos: práctica guiada que realizaremos en clase juntos. Aprenderemos las clases enumeradas
 
+La primera versión que haremos del programa será sin Clases enumeradas!!!!!
+
 ## Crearemos una supeclase llamada Electrodomestico con las siguientes características:
 
 Sus **atributos** son precio base, color, consumo energético (letras entre A y F) y peso. **Usa una clase enumerada.**
