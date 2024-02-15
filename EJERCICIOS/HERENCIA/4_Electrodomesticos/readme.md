@@ -12,16 +12,16 @@ Los colores disponibles son blanco, negro, rojo, azul y gris. **Usa una clase en
     
 Los **constructores** que se implementaran serán:
     
-- Un constructor por defecto.
-- Un constructor con el precio y peso. El resto por defecto.
-- Un constructor con todos los atributos.
+- Un constructor por defecto. public Electrodomestico() 
+- Un constructor con el precio y peso. El resto por defecto. public Electrodomestico(float precioBase, float peso)
+- Un constructor con todos los atributos. public Electrodomestico(float precioBase, String color, char consumoEnergetico, float peso)
 
 Los **métodos** que implementara serán:
     
 - Métodos get de todos los atributos.
-- comprobarConsumoEnergetico(char letra): comprueba que la letra es correcta, sino es correcta usara la letra por defecto. Se invocara al crear el objeto y no será visible.
-- comprobarColor(String color): comprueba que el color es correcto, sino lo es usa el color por defecto. Se invocara al crear el objeto y no será visible.
-- precioFinal(): según el consumo energético, aumentara su precio, y según su tamaño, también. Esta es la lista de precios:
+- comprobarConsumoEnergetico(char letra): comprueba que la letra es correcta, si no es correcta, usara la letra por defecto. Se invocara al crear el objeto y no será visible.
+- comprobarColor(String color): comprueba que el color es correcto, si no lo es, usa el color por defecto. Se invocara al crear el objeto y no será visible.
+- getPrecioFinal(): según el consumo energético, aumentara su precio, y según su tamaño, también. Esta es la lista de precios:
 
 **LETRA	PRECIO**
 
@@ -56,15 +56,15 @@ Por defecto, la carga es de 5 kg. Usa una constante para ello.
     
 Los **constructores** que se implementaran serán:
     
-- Un constructor por defecto.
-- Un constructor con el precio y peso. El resto por defecto.
-- Un constructor con la carga y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre.
-- Un constructor con precio, peso, consumo energético y color (sin carga).
+- Un constructor por defecto. public Lavadora()
+- Un constructor con el precio y peso. El resto por defecto. public Lavadora(float precioBase, float peso)
+- Un constructor con la carga y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre. public Lavadora(float precioBase, float peso, char consumoEnergetico, String color, int carga) y public Lavadora(float precioBase, float peso, int carga)
+- Un constructor con precio, peso, consumo energético y color (sin carga). public Lavadora(float precioBase, float peso, char consumoEnergetico, String color) 
 
  Los **métodos** que se implementara serán:
     
  - Método get de carga.
- - precioFinal():, si tiene una carga mayor de 30 kg, aumentara el precio 50 €, sino es así no se incrementara el precio. Llama al método padre y añade el código necesario. Recuerda que las condiciones que hemos visto en la clase Electrodomestico también deben afectar al precio.
+ - getPrecioFinal():, si tiene una carga mayor de 30 kg, aumentara el precio 50 €, sino es así no se incrementara el precio. Llama al método padre y añade el código necesario. Recuerda que las condiciones que hemos visto en la clase Electrodomestico también deben afectar al precio.
 
 
 ## Crearemos una subclase llamada Television con las siguientes características:
@@ -75,9 +75,9 @@ Por defecto, la resolución sera de 20 pulgadas y el sintonizador sera false.
     
 Los **constructores** que se implementaran serán:
     
-- Un constructor por defecto.
-- Un constructor con el precio y peso. El resto por defecto.
-- Un constructor con la resolución, sintonizador TDT y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre.
+- Un constructor por defecto. public Television()
+- Un constructor con el precio y peso. El resto por defecto. public Television(float precio, float peso)
+- Un constructor con la resolución, sintonizador TDT y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre. public Television(float precio, float peso, char consumo, String color, int resolucion, boolean siTDT
 
 Los **métodos** que se implementara serán:
     
