@@ -162,3 +162,18 @@ El xml en el que se convierten los productos, clientes y proveedores son diferen
 
 No se pide programar las clases Cliente, Proveedor..... pero sí la interface y su implementación en la clase Producto.
 
+## ORDENACIÓN
+
+### Ordenación natural: interfaz Comparable
+
+Ahora queremos establecer el criterio natural de ordenación de todos los productos.
+
+Los productos se ordenarán de forma natural por el precio (siempre por defecto ascendente).
+
+Con el uso de la interface **Comparable** implementa dicha funcionalidad y muestra los productos ordenados.
+
+### Otras ordenaciones: interfaz Comparator
+
+Necesitamos generar un informe de los productos ordenados por nombre de forma descendente.
+
+Con el uso de la interface **Comparator** implementa dicha funcionalidad y muestra los productos ordenados por nombre de forma descendente.
