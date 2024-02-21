@@ -1,4 +1,8 @@
 # Tienda de ordenadores
+
+Para practicar la interface Comparable y Comparator.
+
+
 ## Ejercicio para practicar la herencia y ordenación de ArrayList
 
 En una **tienda** se venden 2 tipos de ordenadores: **portátiles y de sobremesa.**
