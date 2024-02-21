@@ -29,6 +29,17 @@ Se podrá modificar la duración de la garantía de cada equipo no pudiendo pasa
 
 Ten en cuenta además que el **método natural de ordenación** de los ordenadores será a través del código **(implementar interface Comparable)**.
 
+En ese caso no usamos un DAO con los objetos. Usa directamente la siguiente lista:
+```
+ArrayList<Ordenador> listaOrdenadores = new ArrayList<>();
+
+        listaOrdenadores.add(new Portatil(1.5f, "HP_laptop_01", 800));
+        listaOrdenadores.add(new Desktop("torre compacta", "DELL_desk_01", 1100));
+        listaOrdenadores.add(new Portatil(1.2f, "HP_laptop_02", 1200));
+        listaOrdenadores.add(new Desktop("torre gamer", "DELL_desk_02", 1100));
+```
+
+
 ### Se pide:
 
 - Definir e implementar las clases.
