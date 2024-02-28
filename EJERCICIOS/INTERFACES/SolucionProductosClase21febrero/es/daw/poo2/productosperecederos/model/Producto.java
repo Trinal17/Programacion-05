@@ -1,5 +1,8 @@
 package es.daw.poo2.productosperecederos.model;
 
+import es.daw.poo2.productosperecederos.exceptions.CantidadIncorrectaException;
+
+//public abstract class Producto implements  Exportable2XML{
 public abstract class Producto implements  Exportable2XML, Comparable<Producto>{
     // ATRIBUTOS
     private String nombre;
@@ -37,8 +40,16 @@ public abstract class Producto implements  Exportable2XML, Comparable<Producto>{
 
 
     // MÉTODOS DE COMPORTAMIENTO: funcionalidades
-    public double calcular(int cantidad){
+    public double calcular(int cantidad) throws CantidadIncorrectaException{
+        // vamos a controlar que la cantidad sea mayor que cero
+        if (cantidad <= 0 ){
+            //lanzar la excepción
+            throw new CantidadIncorrectaException("La cantidad de productos debe ser mayor que cero");
+        }
+
         return precio * cantidad;
+        
+
     }
 
     // MÉTODOS ABSTRACTOS
@@ -54,18 +65,22 @@ public abstract class Producto implements  Exportable2XML, Comparable<Producto>{
         return "Producto [nombre=" + nombre + ", precio=" + precio + "]";
     }
 
-    @Override
+    //@Override
     /*
      * CURIOSIDAD:
-     * En Java, las clases pueden acceder directamente a los atributos privados de otras instancias de la misma clase. 
-     * Esto se conoce como "acceso directo" y está permitido para facilitar la implementación de métodos 
-     * dentro de la misma clase. 
-     * Así, aunque nombre sea privado, puedes acceder a él desde el mismo tipo de objeto dentro de sus propios métodos.
+     * En Java, las clases pueden acceder directamente a los atributos privados de 
+     * otras instancias de la misma clase. 
+     * Esto se conoce como "acceso directo" y está permitido para facilitar la 
+     * implementación de métodos dentro de la misma clase. 
+     * Así, aunque nombre sea privado, puedes acceder a él desde el mismo tipo de objeto 
+     * dentro de sus propios métodos.
      * Sin embargo, si intentaras hacer lo mismo desde una clase externa, recibirías un error de compilación 
      * porque el atributo nombre es privado y no es accesible desde fuera de la clase.
      */
     public int compareTo(Producto o) {
-        return nombre.compareTo(o.nombre);
+        //return nombre.compareTo(o.nombre);
+        return Double.compare(precio, o.precio);
+        //return Double.compare(o.precio, precio);
     }
 
 }

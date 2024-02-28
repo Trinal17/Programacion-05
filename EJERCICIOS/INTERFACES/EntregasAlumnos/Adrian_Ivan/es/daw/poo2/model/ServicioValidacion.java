@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class ServicioValidacion {
  
     private ArrayList<Validable>lista= new ArrayList<>();
+    
     public ServicioValidacion() {
         // TODO Auto-generated constructor stub
     }

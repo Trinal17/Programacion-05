@@ -15,16 +15,16 @@ public class ProductoDAO {
     public ProductoDAO(){
         // int diasCaducar, String nombre, double precio
         productos.add(new Perecedero(1,"Perecedero 3",100));
-        productos.add(new Perecedero(2,"Perecedero 2",100));
-        productos.add(new Perecedero(3,"Perecedero 1",100));
+        productos.add(new Perecedero(2,"Perecedero 2",110));
+        productos.add(new Perecedero(3,"Perecedero 1",90));
         // TIPO tipo, String nombre, double precio)
         productos.add(new NoPerecedero(TIPO.PERMITE_DEVOLUCION,"No P 1",10));
         productos.add(new NoPerecedero(TIPO.SIN_DEVOLUCION,"No P 3",20));
         productos.add(new NoPerecedero(TIPO.PERMITE_DEVOLUCION,"No P 2",30));
         
         //DATOS PARA AMPLIACIÓN DEL PROGRAMA
-        productos.add(new Perecedero(5,"Perecedero 4",100));
-        productos.add(new Perecedero(6,"Perecedero 5",100));
+        productos.add(new Perecedero(5,"Perecedero 4",70));
+        productos.add(new Perecedero(6,"Perecedero 5",80));
         
     }
     public ArrayList<Producto> select(){

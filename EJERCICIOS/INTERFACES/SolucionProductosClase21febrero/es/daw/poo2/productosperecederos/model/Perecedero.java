@@ -1,5 +1,7 @@
 package es.daw.poo2.productosperecederos.model;
 
+import es.daw.poo2.productosperecederos.exceptions.CantidadIncorrectaException;
+
 public class Perecedero extends Producto{
     
     private int diasCaducar;
@@ -22,9 +24,10 @@ public class Perecedero extends Producto{
     Si le queda 1 día para caducar, se reducirá 4 veces el precio final.
     Si le quedan 2 días para caducar, se reducirá 3 veces el precio final.
     Si le quedan 3 días para caducar, se reducirá a la mitad de su precio final.
+     * @throws CantidadIncorrectaException 
      */
     @Override
-    public double calcular(int cantidad) {
+    public double calcular(int cantidad) throws CantidadIncorrectaException {
         double precioTotal = super.calcular(cantidad);
 
         switch (diasCaducar) {
