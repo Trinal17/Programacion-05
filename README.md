@@ -1,4 +1,4 @@
-# UT05, YT06, YT07, YT08
+# UT05, UT06, UT07, UT08
 
 ## UT05. Introducción a la POO
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/e6d38bd5-7021-48b4-92a0-a7667d9d88f3)
