@@ -172,7 +172,7 @@ Los productos se ordenarán de forma natural por el precio (siempre por defecto 
 
 Con el uso de la interface **Comparable** implementa dicha funcionalidad y muestra los productos ordenados.
 
-### Otras ordenaciones: interfaz Comparator
+### Otras ordenaciones: interfaz Comparator (para la tercera evaluación)
 
 Necesitamos generar un informe de los productos ordenados por nombre de forma descendente.
 
