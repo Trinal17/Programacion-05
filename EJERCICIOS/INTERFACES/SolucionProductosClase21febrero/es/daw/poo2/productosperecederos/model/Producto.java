@@ -55,6 +55,15 @@ public abstract class Producto implements  Exportable2XML, Comparable<Producto>{
     }
 
     @Override
+    /*
+     * CURIOSIDAD:
+     * En Java, las clases pueden acceder directamente a los atributos privados de otras instancias de la misma clase. 
+     * Esto se conoce como "acceso directo" y está permitido para facilitar la implementación de métodos 
+     * dentro de la misma clase. 
+     * Así, aunque nombre sea privado, puedes acceder a él desde el mismo tipo de objeto dentro de sus propios métodos.
+     * Sin embargo, si intentaras hacer lo mismo desde una clase externa, recibirías un error de compilación 
+     * porque el atributo nombre es privado y no es accesible desde fuera de la clase.
+     */
     public int compareTo(Producto o) {
         return nombre.compareTo(o.nombre);
     }
