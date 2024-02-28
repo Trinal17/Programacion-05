@@ -50,5 +50,5 @@ ArrayList<Ordenador> listaOrdenadores = new ArrayList<>();
 - Crear un programa en Java que cree un par de objetos de tipo sobremesa y portátiles que muestre las características de ambos. 
 - Añadir dichos objetos a una colección dinámica (ArrayList) y **devolverlos ordenados.**
 - Pintar los ordenadores **ordenados por el método natural de ordenación (código)**
-- Pintar los ordenadores **ordenador por precio**
+- Pintar los ordenadores **ordenador por precio** (pospuesto a 3ª evaluación)
 - **Recorre la lista de ordenadores y borra aquellos que tengan en su código la cadena HP. Muestra de nuevo la lista.**
