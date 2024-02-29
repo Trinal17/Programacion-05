@@ -68,4 +68,27 @@ El resultado tras la ordenación sería:
 
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/73acf25f-1708-4370-bf11-0e908568a067)
 
+### Versión 4: encontrar un cliente
 
+Vamos a añadir el siguiente código en la clase principal:
+
+```
+        // PRUEBA CON CLONE ... ENCONTRAR UN CLIENTE
+        // Simulamos buscar un cliente por el código 1A que ya existe
+        Client client2Find = new Client("1A");
+        System.out.println("¿Existe el cliente con código 1A?");
+
+        // if (clients.contains(client2Find))
+        //     System.out.println("Cliente encontrado");
+        // else
+        //     System.out.println("Cliente no encontrado");
+
+        System.out.println((clients.contains(client2Find))?"Cliente encontrado":"Cliente no encontrado");
+
+```
+
+El resultado obtenido es el siguiente:
+
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/c4eeed5a-ea93-427f-ba44-7dc07d9111e5)
+
+**¿Por qué crees que no lo encuentra cuando el cliente con código 1A existe en la lista?**
