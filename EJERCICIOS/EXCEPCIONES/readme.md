@@ -15,7 +15,7 @@ Deberás obtener algo similar a esto:
 
 ![alt text](image.png)
 
-### Versión 2
+### Versión 2: trabajando con objetos cliente
 Vamos a ampliar el ejercicio anterior.
 
 Para ello vamos a crear la **clase Client** (es.daw.poo2.model) en base al siguiente **ClientDAO** que debes crear en el paquete es.daw.poo.dao:
@@ -59,5 +59,13 @@ Además, en el caso de que un cliente se de de alta sin número de teléfono deb
 Observa las siguiente salida por consola:
 
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/6bbbd763-d8ac-4f68-8aa3-7ebda4d4a459)
+
+### Versión 3: con método natural de ordenación
+
+Vamos a añadir el método natural de ordenación por fecha de registro.
+
+El resultado tras la ordenación sería:
+
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/73acf25f-1708-4370-bf11-0e908568a067)
 
 
