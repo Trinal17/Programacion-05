@@ -73,7 +73,6 @@ El resultado tras la ordenación sería:
 Vamos a añadir el siguiente código en la clase principal:
 
 ```
-        // PRUEBA CON CLONE ... ENCONTRAR UN CLIENTE
         // Simulamos buscar un cliente por el código 1A que ya existe
         Client client2Find = new Client("1A");
         System.out.println("¿Existe el cliente con código 1A?");
