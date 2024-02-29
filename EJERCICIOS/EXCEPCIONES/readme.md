@@ -18,7 +18,7 @@ Deberás obtener algo similar a esto:
 ### Versión 2
 Vamos a ampliar el ejercicio anterior.
 
-Para ello vamos a crear la clase Client en base al siguiente **ClientDAO** que debes crear en el paquete es.daw.poo.dao:
+Para ello vamos a crear la **clase Client** (es.daw.poo2.model) en base al siguiente **ClientDAO** que debes crear en el paquete es.daw.poo.dao:
 
 ```
 package es.daw.poo2.dao;
