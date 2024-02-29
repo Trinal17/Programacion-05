@@ -52,13 +52,17 @@ Debes tener en cuenta que para dar de alta un cliente se puede hacer de dos form
 - Con el código, nombre, número de teléfono y fecha de registro.
 - Con el código, nombre y fecha de registro
 
+En el caso de que un cliente se de de alta sin número de teléfono deberá indicarse "WITHOUT_PHONE" en dicho atributo.
+
 Solo el número de teléfono podrá modificarse una vez creado el cliente en el sistema.
 
-Además, en el caso de que un cliente se de de alta sin número de teléfono deberá indicarse "WITHOUT_PHONE" en dicho atributo.
+En el método **validatePhone** de la clase PhoneNumberRegisterService implementa el código para comprobar si el número existe un cliente con un teléfono en cuestión. La firma del método será:
 
-PENDIENTE DOCUMENTAR EL NUEVO MÉTODO DE VALIDACIÓN DEL SERVICIO!!!!
+```
+public void validatePhone(ArrayList<Client> clients, String phoneNumber) throws PhoneNumberAlreadyExistsException
+```
 
-Observa las siguiente salida por consola:
+**Observa las siguiente salida por consola:**
 
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/6bbbd763-d8ac-4f68-8aa3-7ebda4d4a459)
 
