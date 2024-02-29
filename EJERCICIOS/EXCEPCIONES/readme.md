@@ -92,3 +92,7 @@ El resultado obtenido es el siguiente:
 ![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/c4eeed5a-ea93-427f-ba44-7dc07d9111e5)
 
 **¿Por qué crees que no lo encuentra cuando el cliente con código 1A existe en la lista?**
+
+Te toca solucionarlo...
+
+![image](https://github.com/profeMelola/Programacion-05-2023-24/assets/91023374/bc681369-81a3-4fc5-bddc-efdebc55e691)
