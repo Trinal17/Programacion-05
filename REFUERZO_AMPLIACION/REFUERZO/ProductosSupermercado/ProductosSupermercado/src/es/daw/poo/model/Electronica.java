@@ -1,8 +1,5 @@
 package es.daw.poo.model;
 
-/**
- * @author jar
- */
 public class Electronica extends Producto implements Descuento {
     public Electronica(String nombre, double precio) {
         super(nombre, precio);

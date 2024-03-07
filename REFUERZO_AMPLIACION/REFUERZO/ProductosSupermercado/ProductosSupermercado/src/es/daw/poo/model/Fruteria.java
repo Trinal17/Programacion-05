@@ -1,8 +1,5 @@
 package es.daw.poo.model;
 
-/**
- * @author jar
- */
 public class Fruteria extends Producto implements Caduca {
     
     private boolean caducado;

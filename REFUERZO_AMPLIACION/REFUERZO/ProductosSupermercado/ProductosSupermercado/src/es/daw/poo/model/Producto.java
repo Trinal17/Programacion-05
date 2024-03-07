@@ -2,6 +2,9 @@ package es.daw.poo.model;
 
 
 public class Producto {
+    // PROTECTED: permitirá a las clases hijas acceder a los atributos de la clase padre sin necesidad
+    // de getter and setter
+    
     // protected String nombre;
     // protected double precio;
     private String nombre;
