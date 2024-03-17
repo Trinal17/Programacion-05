@@ -2,7 +2,7 @@
 
 Como os he comentado en clase, el canal de youtube **Aula en la Nube** es muy apropiado como contenido extra al que proporciono yo en clase.
 
-En los siguienes vídeos se presentan los enunciados de un dos ejercicios sobre una sucursal bancaria.
+En los siguienes vídeos se presentan los enunciados de dos ejercicios sobre una sucursal bancaria.
 
 Siguiendo los vídeos aprenderás la solución propuesta, pero como refuerzo:
 - Analiza el enunciado inicial.
