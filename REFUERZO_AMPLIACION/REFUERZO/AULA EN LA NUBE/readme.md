@@ -1,5 +1,7 @@
 # Ejercicio POO de refuerzo
 
+Como os he comentado en clase, el canal de youtube **Aula en la Nube** es muy apropiado como contenido extra al que proporciono yo en clase.
+
 En los siguienes vídeos se presentan los enunciados de un ejercicio sobre una sucursal bancaria.
 
 Siguiendo los vídeos aprenderás la solución propuesta pero como refuerzo, en base al enunciado inicial, intenta resolverlo sin mirar y luego contrasta la solución.
@@ -13,6 +15,8 @@ Siguiendo los vídeos aprenderás la solución propuesta pero como refuerzo, en 
 [![ampliacion sucursal bancaria](https://img.youtube.com/vi/N_h8K_-roRM/0.jpg)](https://www.youtube.com/watch?v=N_h8K_-roRM)
 
 ## Otras prácticas de repaso
+
+Los siguientes vídeos presentan cuatro prácticas de repaso y refuerzo de POO.
 
 ### Sistema de gestión de nóminas y sistema de gestión de empleados
 
